@@ -1,0 +1,144 @@
+html
+{
+  margin-left: 130px;
+  margin-right: 130px;
+  font-size: 1.3em;
+  font-family: "bgpolice", Arial, Verdana, Trebuchet;
+  color: white;
+}
+@font-face
+{
+  font-family: "bgpolice";
+  src: url("bgpolice.ttf") format("truetype");
+}
+body
+{
+  background-image: url("rugby.jpg"); width: auto;
+  background-attachment: fixed;
+}
+header
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  padding-top: 30px;
+  padding-bottom: 0px;
+}
+header h1
+{
+  margin-bottom: 0px;
+}
+
+section
+{
+  padding: 7px;
+}
+article
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#aside
+{
+  text-align: left;
+  padding-top: 50px;
+  margin-right: 200px;
+}
+.Diev
+{
+  text-align: center;
+}
+#pré
+{
+  display: flex;
+  flex-direction: space-between;
+  justify-content: center;
+  padding-top: 0px;
+}
+img
+{
+  padding-right: 0px;
+  padding-left: 270px;
+}
+.Moi
+{
+  padding-left: 0px;
+  padding-right: 300px;
+  font-size: 1.1em;
+  line-height: 40px;
+}
+strong
+{
+    font-size: 1em;
+}
+#formation
+{
+  margin-left: 120px;
+}
+.f
+{
+  text-align: left;
+}
+.f1, .f2
+{
+  text-align: center;
+  padding-left: 50px;
+  font-size: 1.1em;
+  margin-left: 100px;
+}
+.f1-
+{
+  margin-bottom: 120px;
+}
+.f2-
+{
+  margin-top: 120px;
+  margin-bottom: 80px;
+}
+li
+{
+  text-align: left;
+  margin-left: 110px;
+  padding-left: 30px;
+  line-height: 40px;
+}
+#exppro
+{
+  padding-left: 0px;
+  margin-left: 120px;
+}
+.exp
+{
+  text-align: left;
+}
+.exp1, .exp2
+{
+  text-align: center;
+  padding-left: 50px;
+  font-size: 1.1em;
+  margin-right: 600px;
+}
+.exp1-
+{
+  margin-bottom: 120px;
+}
+.exp2-
+{
+  margin-top: 120px;
+  margin-bottom: 30px;
+}
+#compét
+{
+  margin-left: 120px;
+}
+.comp1
+{
+  font-size: 1.1em;
+}
+section h2, h3
+{
+  border-bottom: 1px rgb
+}
