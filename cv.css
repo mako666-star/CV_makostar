@@ -4,7 +4,8 @@ html
   margin-right: 130px;
   font-size: 1.3em;
   font-family: "bgpolice", Arial, Verdana, Trebuchet;
-  color: white;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
 }
 @font-face
 {
@@ -15,22 +16,25 @@ body
 {
   background-image: url("rugby.jpg"); width: auto;
   background-attachment: fixed;
+  width: 100%;
 }
 header
 {
+  text-decoration: underline rgb(234, 85, 96);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 10px;
-  padding-top: 30px;
-  padding-bottom: 0px;
+}
+section h2, h3
+{
+  text-decoration: underline rgb(234, 85, 96);
+  border-bottom: 1px;
 }
 header h1
 {
   margin-bottom: 0px;
 }
-
 section
 {
   padding: 7px;
@@ -43,40 +47,44 @@ article
 }
 #aside
 {
-  text-align: left;
-  padding-top: 50px;
-  margin-right: 200px;
+  padding-top: 3%;
 }
 .Diev
 {
   text-align: center;
 }
+.Dive1
+{
+  line-height: 40px;
+}
 #pré
 {
   display: flex;
-  flex-direction: space-between;
-  justify-content: center;
-  padding-top: 0px;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 0%;
 }
 img
 {
-  padding-right: 0px;
-  padding-left: 270px;
+  margin-left: 35%;
+  margin-right: 5%;
 }
 .Moi
 {
-  padding-left: 0px;
-  padding-right: 300px;
+  margin-left: 12%;
+  padding-right: 0%;
   font-size: 1.1em;
   line-height: 40px;
 }
 strong
 {
-    font-size: 1em;
+    font-size: 1.5em;
+    font-style: normal;
 }
 #formation
 {
-  margin-left: 120px;
+  margin-left: 10%;
+  padding-left: 0%;
 }
 .f
 {
@@ -85,7 +93,6 @@ strong
 .f1, .f2
 {
   text-align: center;
-  padding-left: 50px;
   font-size: 1.1em;
   margin-left: 100px;
 }
@@ -98,30 +105,35 @@ strong
   margin-top: 120px;
   margin-bottom: 80px;
 }
-li
+.ff
 {
-  text-align: left;
-  margin-left: 110px;
-  padding-left: 30px;
+  font-size: 1.1em;
+  margin-left: 140px;
+  padding-left: 70px;
   line-height: 40px;
 }
-#exppro
+ul p
 {
-  padding-left: 0px;
-  margin-left: 120px;
+  text-align: center;
+}
+mark
+{
+  font-style: italic;
+  background: none;
+  color: rgb(255, 255, 255);
 }
 .exp
 {
   text-align: left;
 }
-.exp1, .exp2
+.exp0, .exp1, .exp2
 {
   text-align: center;
   padding-left: 50px;
   font-size: 1.1em;
   margin-right: 600px;
 }
-.exp1-
+.exp0-, .exp1-
 {
   margin-bottom: 120px;
 }
@@ -132,13 +144,114 @@ li
 }
 #compét
 {
+  padding-top: 40px;
   margin-left: 120px;
+  padding-left: 100px;
+}
+.comp1, .comp2
+{
+  margin-left: 200px;
+  padding-left: 30px;
+  font-size: 1.1em;
+  line-height: 50px;
 }
 .comp1
 {
-  font-size: 1.1em;
+  border: solid rgb(234, 85, 96);
+  margin-right: 140px;
 }
-section h2, h3
+a
 {
-  border-bottom: 1px rgb
+  color: rgb(200,200,200);
+}
+a:active
+{
+  color: black;
+}
+@media(min-width:768px) and (max-width:1388px)
+{
+header
+{
+  margin: 10px;
+  padding-top: 30px;
+  padding-bottom: 0px;
+}
+section
+{
+  padding: 7px;
+}
+#aside
+{
+  padding-top: 3%;
+}
+img
+{
+  margin-left: 35%;
+  margin-right: 5%;
+}
+.Moi
+{
+  margin-left: 10%;
+  padding-right: 0%;
+}
+#formation
+{
+  margin-left: 7%;
+  padding-left: 3%;
+}
+.f1, .f2
+{
+  margin-left: 100px;
+}
+.f1-
+{
+  margin-bottom: 120px;
+}
+.f2-
+{
+  margin-top: 120px;
+  margin-bottom: 80px;
+}
+.ff
+{
+  margin-left: 140px;
+  padding-left: 70px;
+}
+#exppro
+{
+  margin-left: 10%;
+  padding-left: 0%;
+}
+.exp
+{
+  text-align: left;
+  padding-left: 0%;
+}
+.exp0, .exp1, .exp2
+{
+  padding-left: 0px;
+  margin-left: 15%;
+  margin-right: 300px;
+}
+.exp0-, .exp1-
+{
+  margin-bottom: 120px;
+}
+.exp2-
+{
+  margin-top: 120px;
+  margin-bottom: 30px;
+}
+#compet
+{
+  padding-top: 40px;
+  margin-left: 120px;
+  padding-left: 100px;
+}
+
+.comp1
+{
+  margin-left: 200px;
+  padding-left: 30px;
+}
 }
